@@ -1,0 +1,70 @@
+/* ! ===== Font Start ===== */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+/* ! ===== Font End ===== */
+
+/* ! ===== Reset Start ===== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* ! ===== Reset End ===== */
+
+/* ! ===== Body Start ===== */
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+/* ! ===== Body End ===== */
+
+/* ! ===== Download Button Style Start ===== */
+.download-btn {
+  outline: none;
+  border: none;
+  color: #fff;
+  display: flex;
+  cursor: pointer;
+  padding: 16px 30px;
+  border-radius: 8px;
+  align-items: center;
+  white-space: nowrap;
+  background: #02C39A;
+  transition: all 0.2s ease;
+}
+
+.download-btn:hover {
+  background: #007A6E;
+  box-shadow: 0 8px 15px #00B8A5;
+}
+
+.download-btn.timer {
+  color: #eee;
+  background: none;
+  transition: none;
+  font-size: 1.6rem;
+  pointer-events: none;
+}
+
+.download-btn.timer b {
+  color: #001D3D;
+  padding: 0 6px;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.download-btn .icon {
+  font-size: 1.1rem;
+}
+
+.download-btn .text {
+  font-size: 1.1rem;
+  padding-left: 10px;
+}
+
+/* ! ===== Download Button Style End ===== */
